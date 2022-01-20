@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: SansSerif, Helvetica;
+    margin: 0;
+}
+
+.header3 {
+    padding: 220px;
+    background-image: url("bts.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+.header3 h1 {
+    font-size: 70px;
+    color: #000000;
+}
+
+.display {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.notmain1 {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.main {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.notmain2 {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.image {
+    transition: 1s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+
+.footer {
+    padding: 30px;
+    background: #0a0707;
+}
+
+.footer h2 {
+    text-align: right;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+.Register2 {
+    background-color: #1e1616;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Register2 h2 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background: #1e1616;
+    height: 70px;
+}
+a {
+    text-decoration: none;
+    background: #1e1616;
+    color:#fff;
+    padding:10px 15px;
+    font-family: arial;
+    line-height: 50px;
+    display: block;
+    border-right: 1px solid #e6d2b0;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+    background: #000000;
+}
+li {
+    float:left;
+    position:relative;
+}
+
+
+li > ul {
+    position:absolute;
+    top: 70px;
+    display:none;
+}
+
+li:hover > ul {
+    display:block;
+    width:250px;
+    opacity: 100%;
+}
+li:hover > ul > li {
+    float:none;
+}
